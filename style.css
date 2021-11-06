@@ -1,0 +1,100 @@
+*{
+    font-family: cursive;
+}
+body{
+    margin: 0;
+}
+.w-15{
+    width: 14%;
+}
+.w-70{
+    width: 69%;
+}
+input{
+    width: 96%;
+}
+
+.content{
+    margin: 0 auto;
+}
+.bg-blue{
+    background: #354c8d;
+}
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.content .filters{
+    display: flex;
+    justify-content: center;
+}
+.content .filters .filters-collum{
+    background: #bbcaf6;
+    padding: 15px;
+    border: 4px inset #Fff;
+}
+/**
+* Form Aplication
+**/
+.content .filters form .filters-input label{
+    font-weight: 700;
+}
+.content .filters form .filters-input .field{
+    margin-top: 3%;
+}
+.content .filters form .btn{
+    text-align: end;
+    margin-top: 8%;
+}
+.content .filters form .btn button{
+    color: #fff;
+    background: #4d4a9f;
+    padding: 4px 12px;
+    border-radius: .5rem;
+}
+
+
+
+/**
+*   Table
+**/
+
+.table{
+    margin-top: 3%;
+}
+.table .table-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.table .table-row .table-column{
+    border: 1px solid;
+}
+.table .fields{
+    display: flex;
+    justify-content: space-between;
+}
+.table .fields-values, .table .demand{
+    display: flex;
+    justify-content: space-between;
+}
+.table .fields-index .index{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    padding: 0 5%;
+}
+.table .fields-values .values{
+    position: relative;
+}
+.table .fields-values .values input, .table .capacity .capacity-item input{
+    height: 30px;
+}
+.table .fields-values .values .field{
+    position: absolute;
+    top: 0;
+    right: 3%;
+    width: 40px;
+}
+.table .fields-values .values .field input{
+    height: auto;
+}

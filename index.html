@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculos</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="content bg-blue">
+        <div class="container">
+            <div class="filters">
+                <div class="filters-collum">
+                    <form method="GET">
+                        <div class="filters-input">
+                            <label for="zona_demana">Zona de demanda</label>
+                        <div class="field">
+                                <input type="text" name="zona_demanda" required>
+                        </div>
+                        </div>
+                        <div class="filters-input">
+                            <label for="">Qtd de demanda</label>
+                            <div class="field">
+                                <input type="number" name="qtd_demana" required minlength="1">
+                            </div>
+                        </div>
+
+                        <div class="btn">
+                            <button type="submit">Adicionar</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="filters-collum">
+                    <form method="GET">
+                        <div class="filters-input">
+                            <label for="zona_demana">Zona de capacidade</label>
+                            <div class="field">
+                                <input type="text" name="zona_capacidade" required>
+                            </div>
+                        </div>
+                        <div class="filters-input">
+                            <label for="">Qtd de capacidade</label>
+                            <div class="field">
+                                <input type="number" name="qtd_capacidade" required min="1">
+                            </div>
+                        </div>
+                        
+                        <div class="btn">
+                            <button type="submit">Adicionar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <div class="content">
+        <div class="container">
+            <div class="table">
+                <div class="table-content">
+                    <div class="table-head">
+                        <div class="table-row">
+                            <div class="table-column w-15">
+                                <div class="field-null"></div>
+                            </div>
+                            <div class="table-column w-70">
+                                <div class="fields">
+                                    <div class="index">
+                                       <input type="text" value="São Paulo">
+                                    </div>
+                                    <div class="index">
+                                        <input type="text"value="Baixada Santista">
+                                    </div>
+                                    <div class="index">
+                                        <input type="text"value="Vale do Paraíba">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="table-column w-15">
+                                <div class="capacity-label">
+                                    <span>capacidade</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-body">
+                        <div class="table-row">
+                            <div class="table-column w-15">
+                                <div class="fields-index">
+                                    <div class="index">
+                                        <input type="text" name="" value="Loja 1">
+                                    </div>
+                                    <div class="index">
+                                        <input type="text" name="" value="Loja 2">
+                                    </div>
+                                    <div class="index">
+                                        <input type="text" name="" value="Loja 3">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="table-column w-70">
+                                <div class="fields-values">
+                                    <div class="values">
+                                        <input type="text" disabled value="100">
+                                        <div class="field">
+                                            <input type="number" name="value" value="">
+                                        </div>
+                                    </div>
+                                    <div class="values">
+                                        <input type="text" disabled value="100">
+                                        <div class="field">
+                                            <input type="number" name="value" value="">
+                                        </div>
+                                    </div>
+                                    <div class="values">
+                                        <input type="text" disabled value="100">
+                                        <div class="field">
+                                            <input type="number" name="value" value="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fields-values">
+                                    <div class="values">
+                                        <input type="text" disabled value="100">
+                                        <div class="field">
+                                            <input type="number" name="value" value="">
+                                        </div>
+                                    </div>
+                                    <div class="values">
+                                        <input type="text" disabled value="100">
+                                        <div class="field">
+                                            <input type="number" name="value" value="">
+                                        </div>
+                                    </div>
+                                    <div class="values">
+                                        <input type="text" disabled value="100">
+                                        <div class="field">
+                                            <input type="number" name="value" value="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fields-values">
+                                    <div class="values">
+                                        <input type="text" disabled value="100">
+                                        <div class="field">
+                                            <input type="number" name="value" value="">
+                                        </div>
+                                    </div>
+                                    <div class="values">
+                                        <input type="text" disabled value="100">
+                                        <div class="field">
+                                            <input type="number" name="value" value="">
+                                        </div>
+                                    </div>
+                                    <div class="values">
+                                        <input type="text" disabled value="100">
+                                        <div class="field">
+                                            <input type="number" name="value" value="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="table-column w-15">
+                                <div class="capacity">
+                                   <div class="capacity-item">
+                                       <input type="text" name="" value="100">
+                                   </div>
+                                   <div class="capacity-item">
+                                        <input type="text" name="" value="100">
+                                    </div>
+                                    <div class="capacity-item">
+                                        <input type="text" name="" value="100">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-foot">
+                        <div class="table-row">
+                            <div class="table-column w-15">
+                                <div class="demand-label">Demanda</div>
+                            </div>
+                            <div class="table-column w-70">
+                                <div class="demand">
+                                    <div class="demand-item">
+                                        <input type="number">
+                                    </div>
+                                    <div class="demand-item">
+                                        <input type="number">
+                                    </div>
+                                    <div class="demand-item">
+                                        <input type="number">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="table-column w-15">
+                                <div class="field-null">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+
+    <script type="module" src="./js/autoload.js"></script>
+</body>
+</html>
