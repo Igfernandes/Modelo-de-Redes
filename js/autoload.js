@@ -1,0 +1,1 @@
+import * as blockInfo from './blocks/infos/_infos.js';
